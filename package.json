@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "grapesjs": "^0.16.45",
-        "grapesjs-blocks-basic": "^0.1.8",
+        "grapesjs-blocks-basic": "^0.1.11",
         "grapesjs-plugin-ckeditor": "0.0.9",
         "grapesjs-preset-webpage": "^0.1.11",
         "node-html-parser": "^1.1.16",
