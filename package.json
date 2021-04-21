@@ -12,6 +12,7 @@
         "grapesjs-blocks-basic": "^0.1.8",
         "grapesjs-plugin-ckeditor": "0.0.10",
         "grapesjs-preset-webpage": "^0.1.11",
+        "grapesjs-tui-image-editor" : "^0.13",
         "node-html-parser": "^1.1.16",
         "react-jsx-parser": "^1.21.0",
         "react-style-tag": "^2.0.1",
