@@ -102,7 +102,7 @@ const Editor = ({ onChange, name, value }) => {
         plugins: ['gjs-blocks-basic', strapiPluginRef, 'grapesjs-tui-image-editor'],
         pluginsOpts: {
           'gjs-blocks-basic': {
-            blocks: ['column1', 'column2', 'column3', 'column3-7', 'text'],
+            blocks: ['column1'],
             category: 'Basic Blocks',
             flexGrid: true,
           },
