@@ -99,7 +99,7 @@ const Editor = ({ onChange, name, value }) => {
         components: (value && value.components) || {},
         style: (value && value.styles) || {},
         storageManager: storageManagerConfig,
-        plugins: ['gjs-blocks-basic', strapiPluginRef, 'grapesjs-tui-image-editor],
+        plugins: ['gjs-blocks-basic', strapiPluginRef, 'grapesjs-tui-image-editor'],
         pluginsOpts: {
           'gjs-blocks-basic': {
             blocks: ['column1', 'column2', 'column3', 'column3-7', 'text'],
