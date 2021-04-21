@@ -109,7 +109,7 @@ const Editor = ({ onChange, name, value }) => {
           [strapiPluginRef]: {
             assetsManager: sharedAssetsManager,
           },
-          'grapesjs-tui-image-editor': {           config: {
+          'grapesjs-tui-image-editor': {  category: 'Basic Blocks',         config: {
             includeUI: {
               initMenu: 'filter',
             }
