@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'; // eslint-disable-line import/no-unresolved
+import tUIImageEditor from 'grapesjs-tui-image-editor';
 import PropTypes from 'prop-types';
 import GrapesJS from 'grapesjs';
 import gjsBasicBlocks from 'grapesjs-blocks-basic'; // eslint-disable-line no-unused-vars
@@ -99,7 +100,7 @@ const Editor = ({ onChange, name, value }) => {
         components: (value && value.components) || {},
         style: (value && value.styles) || {},
         storageManager: storageManagerConfig,
-        plugins: ['gjs-blocks-basic', strapiPluginRef],
+        plugins: ['gjs-blocks-basic', strapiPluginRef, tUIImageEditor],
         pluginsOpts: {
           'gjs-blocks-basic': {
             blocks: ['column1', 'column2', 'column3', 'column3-7', 'text'],
@@ -109,6 +110,7 @@ const Editor = ({ onChange, name, value }) => {
           [strapiPluginRef]: {
             assetsManager: sharedAssetsManager,
           },
+          [tUIImageEditor]: { /* options */ }
         },
         wrapperIsBody: false,
         styleManager: styleManagerConfig,
