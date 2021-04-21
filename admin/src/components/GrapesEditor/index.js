@@ -106,6 +106,7 @@ const Editor = ({ onChange, name, value }) => {
             category: 'Basic Blocks',
             flexGrid: true,
           },
+          'grapesjs-plugin-forms': {category: 'Additonal'},
           [strapiPluginRef]: {
             assetsManager: sharedAssetsManager,
           }
