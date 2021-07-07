@@ -38,15 +38,11 @@ export default (strapi) => {
     injectedComponents: [],
     isReady: true,
     isRequired: pluginPkg.strapi.required || false,
-    leftMenuLinks: [],
-    leftMenuSections: [],
+    //leftMenuLinks: [],
+    //leftMenuSections: [],
     mainComponent: null,
     name: pluginPkg.strapi.name,
     preventComponentRendering: false,
-    settings: {
-      mainComponent: Settings,
-      menuSection,
-    },
     trads: {},
   };
 

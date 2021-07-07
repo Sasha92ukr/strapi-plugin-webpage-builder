@@ -7,6 +7,7 @@ Add GrapesJS builder to your own strapi application
 Install package
 ```sh
 npm i --save strapi-plugin-webpage-builder
+npm i sass-loader@10.1.1 sass@1.32.8
 # or
 yarn add strapi-plugin-webpage-builder
 ```
