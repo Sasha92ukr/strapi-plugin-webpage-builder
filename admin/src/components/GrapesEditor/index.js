@@ -103,7 +103,6 @@ const Editor = ({ onChange, name, value }) => {
       height: '500px',
       width: 'auto',
       // Rendered data
-      fromElement: true,
       components: (value && value.components) || {},
       style: (value && value.styles) || {},
       storageManager: storageManagerConfig,
