@@ -1,4 +1,12 @@
 {
+    "name": "strapi-plugin-webpage-builder",
+    "version": "1.0.0-alpha.0.2",
+    "description": "Add GrapesJS builder to your own strapi application.",
+    "strapi": {
+        "name": "webpage-builder",
+        "icon": "plug",
+        "description": "Add GrapesJS builder to your own strapi application."
+    },
     "_from": "git+https://github.com/Sasha92ukr/strapi-plugin-webpage-builder.git",
     "_id": "strapi-plugin-webpage-builder@1.0.0-alpha.0.2",
     "_inBundle": false,

@@ -513,13 +513,13 @@ const Editor = ({ onChange, name, value }) => {
 
     const panelManager = editor.Panels;
 
-    panelManager.addButton('views',{
-
-      attributes: { title: 'Open Code' },
-      className: 'fa fa-code',
-      command: 'open-code',
-      id: 'open-code'
-    });
+    // panelManager.addButton('views',{
+    //
+    //   attributes: { title: 'Open Code' },
+    //   className: 'fa fa-code',
+    //   command: 'open-code',
+    //   id: 'open-code'
+    // });
 
     setEditor(editor);
     setMounted(true);
